@@ -1,0 +1,25 @@
+@shivamyeshu ➜ /workspaces/GIT-HUB (main) $ git init
+Reinitialized existing Git repository in /workspaces/GIT-HUB/.git/
+
+@shivamyeshu ➜ /workspaces/GIT-HUB (main) $ git add .
+
+@shivamyeshu ➜ /workspaces/GIT-HUB (main) $ git commit -m "added files"
+[main ebcb049] added files
+ 4 files changed, 55 insertions(+)
+ create mode 100644 Basic Github Help.txt
+ create mode 100644 Basic Github help.png
+ create mode 100644 Basic.png
+ create mode 100644 Basics.txt
+
+@shivamyeshu ➜ /workspaces/GIT-HUB (main) $ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 6.97 MiB | 4.41 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shivamyeshu/GIT-HUB
+   f3ca057..ebcb049  main -> main
+   
+@shivamyeshu ➜ /workspaces/GIT-HUB (main) $ git push
+Everything up-to-date

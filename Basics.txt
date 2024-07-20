@@ -1,0 +1,21 @@
+How to push from code space :-
+
+cd path/to/your/project
+git status
+git add .
+        or 
+git add file1 file2
+git commit -m "Your commit message here"
+git push origin <branch-name>
+        or
+git push origin main
+
+                &/&
+
+cd path/to/your/project
+git status
+git add .
+git commit -m "Your commit message here"
+git push origin main
+
+
